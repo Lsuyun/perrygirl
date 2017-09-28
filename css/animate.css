@@ -97,7 +97,7 @@
 }
 .screen-3__features-item:hover{
     transform:scale(1.05);
-    border-color: #fff;
+    border-color: #24787a;
     
 }
 .screen-3__features_animate_done .screen-3__features-item_i_1{
@@ -145,7 +145,7 @@
 }
 
 .screen-4__type_animate_done .screen-4__type-item:hover {
-    background-color: red;
+    /*background-color: red;*/
 }
 .screen-4__type_animate_init .screen-4__type-item{
     opacity: 0;
@@ -195,19 +195,19 @@
     transition:all .5s;
 }
 .header_active_1 a.header__nav-item_i_1{
-    color: red;
+    color: #03A9F4;
 }
 .header_active_2 a.header__nav-item_i_2{
-    color: red;
+    color: #03A9F4;
 }
 .header_active_3 a.header__nav-item_i_3{
-    color: red;
+    color: #03A9F4;
 }
 .header_active_4 a.header__nav-item_i_4{
-    color: red;
+    color: #03A9F4;
 }
 .header_active_5 a.header__nav-item_i_5{
-    color: red;
+    color: #03A9F4;
 }
 .header_active_1 .header__nav-item-tip{
     left: 20px;

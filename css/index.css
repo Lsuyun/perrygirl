@@ -16,7 +16,7 @@
     z-index: 2;
     height: 60px;
     background-color: #FAFAFA;
-    color: #292E35;
+    color: #14191e;
 }
 
 .header__logo {
@@ -24,7 +24,7 @@
     height: 40px;
     margin: 10px 0px 0px 10px;
     padding: 0px 0px 0px 50px;
-    background: url("./../img/logo.png") left top no-repeat;
+    background: url("./../img/0.jpg") left top no-repeat;
     display: block;
     font-size: 18px;
     line-height: 40px;
@@ -37,7 +37,7 @@
 }
 
 .header__nav-item:hover {
-    color: #f03131;
+    color: #03A9F4;
 }
 
 .header__nav-item {
@@ -53,23 +53,19 @@
 .header__nav-item-tip {
     width: 60px;
     height: 2px;
-    background: red;
+    background: #03A9F4;
     position: absolute;
     left: 20px;
     bottom: -2px;
 }
 
-.header__nav-item_custom_button {
+/*.header__nav-item_custom_button {
     color: #fff;
     background: #000;
     width: 60px;
     margin: 0 20px;
     border-radius: 5px;
-}
-
-.header__nav-item_custom_button:hover {
-    color: #fff;
-}
+}*/
 
 /* 第一屏模块开始 */
 
@@ -86,12 +82,13 @@
 }
 
 .screen-1__wrap {
-    max-width: 1200px;
+ /*   max-width: 1200px;*/
     min-width: 800px;
     margin: 0px auto;
     height: 100%;
     position: relative;
     overflow: hidden;
+    background-color: #24787a;
 }
 
 .screen-1__heading {
@@ -100,26 +97,28 @@
     width: 100%;
     font-size: 42px;
 }
-.screen-1__subheading {
+/*.screen-1__subheading {
     width: 100%;
     top: 190px;
     position: absolute;
     font-size: 16px;
-    color:#000;
-}
+    color:#999;
+}*/
 .screen-1__heading b{
-    color: #f01414;
     font-weight: normal;
+    z-index: 999;
+    color: #fff;
 }
 .screen-1__phone {
     position: absolute;
-    bottom: 20px;
-    width: 1375px;
-    height: 305px;
+    /*bottom: 20px;*/
+    top: 150px;
+    width: 100%;
+    height: 400px;
     left: 50%;
     margin-left: -687px;
-    background: url(../img/0.jpg) no-repeat center ;
-   /* background-size: cover;*/
+    background: url(../img/1.jpg) no-repeat center ;
+    background-size:669px 314px ;
     z-index: 1;
 }
 .screen-1__shadow {
@@ -150,7 +149,7 @@
 
 .screen-2__heading {
     position: absolute;
-    top: 80px;
+    top: 60px;
     width: 100%;
     font-size: 42px;
     color: #f01414
@@ -158,22 +157,23 @@
 
 .screen-2__subheading {
     width: 100%;
-    top: 190px;
+    top: 150px;
     position: absolute;
     font-size: 16px;
+    z-index: 99;
 }
 .screen-2__phone{
     width: 1200px;
     height: 500px;
-    background: url(../img/c.png) no-repeat center;
+    background: url(../img/01.jpg) no-repeat center;
     position: absolute;
-    background-size:1200px  500px;
+    background-size:800px  500px;
     margin-left: 20px;
     top: 150px;
 }
 .screen-2__point{
     font-size: 24px;
-    color: #4D555d;
+    color: #f7f7f9;
     position: absolute;
     width: 100px;
 }
@@ -203,12 +203,12 @@
 .screen-3 {
     color: rgb(255,255,255);
     height: 600px;
-    background-color: #a71316;
+    background-color: #dadeea;
 }
 
 .screen-3__wrap {
-    max-width: 1200px;
-    min-width: 800px;
+    max-width: 100%;
+    /*min-width: 800px;*/
     margin: 0px auto;
     height: 100%;
     position: relative;
@@ -218,26 +218,27 @@
 .screen-3__heading {
     position: absolute;
     top: 60px;
-    left: 10px;
+    left: 50px;
     width: 580px;
     font-size: 36px;
 }
 .screen-3__subheading {
     position: absolute;
     top: 135px;
-    left: 10px;
+    left: 50px;
     width: 580px;
     font-size: 16px;
+    color:rgb(7,17,27);
 }
 
 .screen-3__phone{
-    width: 729px;
+    width: 800px;
     height: 900px;
     position: absolute;
-    top: 10px;
-    left: 465px;
-    background: url(../img/8.png) no-repeat;
-    background-size: 729px 600px;
+    top: 0px;
+    right: 0px;
+    background: url(../img/02.jpg) no-repeat;
+    background-size: 800px 600px;
 }
 
 .screen-3__features {
@@ -245,7 +246,7 @@
     width: 328px;
     height: 288px;
     bottom: 100px;
-    left: 5px;
+    left: 55px;
 }
 .screen-3__features-item-number{
     height: 36px;
@@ -258,7 +259,7 @@
     float: left;
     width: 210px;
     height: 118px;
-    border: 1px solid #D97173;
+    border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
     line-height: 14px;
@@ -273,6 +274,7 @@
     background-color: #fff;
     text-align: center;
     height: 700px;
+     background: #fff;
 }
 .screen-4__wrap {
     max-width: 1200px;
@@ -290,6 +292,7 @@
     width: 100%;
     font-size: 42px;
     color: #f01414;
+
 }
 .screen-4__subheading {
     position: absolute;
@@ -346,8 +349,8 @@
 }
 
     .screen-4__type-item_i_1 {
-        background: url("../img/9.png") center  no-repeat;
-        background-size: 1200px 470px;
+        background: url("../img/3.jpg") center  no-repeat;
+        background-size: 800px 470px;
     }
 
     /*.screen-4__type-item_i_2 {
@@ -402,17 +405,24 @@
     position: absolute;
     top: 200px;
     width: 100%;
-    font-size: 16px;
+    font-size: 24px;
+    color: #666;
 }
 
-
+.word{
+    font-size: 24px;
+    color: #666;
+}
+.number{
+    color: #24787a;
+}
 /*.buy {
     height: 80px;
     padding: 120px 0px;
     background: url(../img/bg-screen-buy.png) no-repeat bottom center #2b333b;
 }
 */
-.buy__button:hover,
+/*.buy__button:hover,
 .buy__button {
     width: 240px;
     height: 80px;
@@ -430,7 +440,7 @@
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
     transform:translate(0,-5px);
 }
-
+*/
 /*页脚模块开始*/
 .footer {
     height: 80px;
@@ -443,7 +453,7 @@
 
 /*大纲模块*/
 
-.outline {
+/*.outline {
     position: fixed;
     padding: 5px 10px;
     bottom: 120px;
@@ -460,16 +470,16 @@
     line-height: 30px;
     padding: 5px 0;
     background: rgb(255,255,255);
-    margin: 5px 0px 0px;
+    margin: 5px 0fpx 0px;
     border-top: 1px solid #eee;
     text-align: center;
-    color: #93999f;
+    color: #93999;
 }
 .outline__item:first-child{
     border:none;
 }
 .outline__item_status_active{
     color: #000;
-}
+}*/
 
 
