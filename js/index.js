@@ -168,7 +168,7 @@ window.onscroll = function () {
 
     getByClass('outline')[0].setAttribute('class','outline outline_active_3');
   }
-  if(top>3*600+60){
+  if(top>2*600+60){
     getByClass('header')[0].setAttribute('class','header header_status_black header_active_4');
 
 
@@ -185,7 +185,7 @@ window.onscroll = function () {
 
 
   }
-  if(top>4*600+100){
+  if(top>2*600+100){
     getByClass('header')[0].setAttribute('class','header header_status_black header_active_5');
 
 
